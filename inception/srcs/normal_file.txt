@@ -1,0 +1,19 @@
+DOMAIN_NAME=${USER}.42.fr
+
+# Database
+
+SQL_DATABASE=inception
+SQL_USER=dbuser
+SQL_PASSWORD=dbpassword
+SQL_ROOT_PASSWORD=password
+SQL_HOST=mariadb:3306
+
+# Wordpress
+
+SITE_TITLE=Inception
+ADMIN_USER=${USER}
+ADMIN_PASSWORD=wordpress
+ADMIN_EMAIL=${USER}@student.42.fr
+USER1_LOGIN=test
+USER1_MAIL=test@student.42.fr
+USER1_PASS=password
